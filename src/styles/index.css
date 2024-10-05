@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1px;
+  color: white;
+  background-color: rgb(39, 38, 44);
+}
+
+button {
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #005582;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.invitation {
+  font-size: large;
+  font-weight: lighter;
+}
+
+.container {
+  text-align: center;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.progress-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 0%, #ddd 0%);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.progress-circle::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.count {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+}
