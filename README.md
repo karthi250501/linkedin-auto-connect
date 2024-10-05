@@ -74,7 +74,7 @@ git clone https://github.com/karthi250501/linkedin-auto-connect.git
 
 ## Limitations
 
-- The extension can send a maximum of 100 **Connect** requests per page.
+- The extension can send a maximum of 100 **Connect** requests per process.
 - To send more requests, you need to click the **START CONNECTING** button again to restart the process.
 - You should not close the page or browse in the same tab while the extension is running. However, you can continue using other tabs in your browser.
 
